@@ -6,3 +6,84 @@ html, body {
 * {
 	box-sizing: border-box;
 }
+
+body {
+	background: #298eea;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+
+.header {
+	height: 75px;
+	text-align: center;
+}
+
+
+.logo {
+	height: 35px;
+	margin-top: 20px;
+}
+
+.main {
+}
+
+.signup-text {
+	text-align: center;
+	font-size: 175%;
+	font-weight: 300;
+	color: #666;
+}
+
+.signup-form {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	border-style: none;
+	overflow: auto;
+}
+
+.signup-form > * {
+	width: 320px;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.signup-form input {
+	box-sizing: border-box;
+	border: 2px solid #E7E7E7;
+	border-radius: 3px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #E7E7E7;
+	font-weight: 300;
+	font-size: 90%
+}
+
+.signup-button {
+	margin-top: 15px;
+	height: 55px;
+	border: 2px none;
+	background-color: #2ECE70;
+	color: white;
+	font-weight: 300;
+	font-size:110%;
+}
+
+.forgot-password, a {
+	text-align: center;
+	color: grey;
+	font-size: 90%;
+}
+
+.have-account, .have-account a {
+	text-align: center;	
+	color: white;
+	font-weight: 600;
+	font-size: 90%;
+	padding-top: 15px; 
+}

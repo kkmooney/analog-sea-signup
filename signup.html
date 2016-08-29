@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea - Signup Page</title>
+	<meta name="description" charset="utf-8" content="Sign up to join Analog Sea! Some additional descriptive text here.">
+	<link rel="stylesheet" type="text/css" href="css/login-page.css">
+</head>
+<body>
+	<header class="header">
+		<img class="logo" src="images/logo_t_vistaPrint.png">
+	</header>
+	<main class="main">
+		<form action="/signup/" method="POST" class="signup-form">
+			<h2 class="signup-text">Sign Up</h2>
+			<label for="email" class="email-label">Email</label>
+			<input type="email" name="email" id="email" class="email-input" placeholder="foo@bar.com" required>
+			<label for="password" class="password-label">Password</label>
+			<input type="password" name="password" id="password" class="password-input" placeholder="124passw0rd" required>
+			<button type="submit" name="submit" id="submit" class="signup-button">Sign up</button>
+			<div class="forgot-password"><a href="/forgot-password/new" class="password-link">Forgot password?</a></div>
+		</form>
+		<div class="have-account">Already have an account? <a href="/login" class="login-link">Log-in</a></div>
+	</main>
+</body>
+</html>
